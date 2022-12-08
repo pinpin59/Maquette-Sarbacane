@@ -260,7 +260,7 @@
   content: "";
   z-index: -1;
   position: absolute;
-  background-image: url("../../ressources/visuel-header.webp");
+  background-image: url("/ressources/visuel-header.webp");
   background-position: center;
   background-repeat: no-repeat;
   top: 0;
