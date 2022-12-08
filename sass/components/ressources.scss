@@ -1,0 +1,39 @@
+.d-flex{
+    display: flex;
+}
+
+.color-green{
+    color: #71a159;
+}
+
+.color-white{
+    color: white;
+}
+
+.color-gray{
+    color: gray;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+@for $i from 1 through 4{
+    .mr-#{$i}{
+        margin-right:($i * 1rem);
+    }
+}
+
+.bg-card-white{
+    background: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 1px;
+}
+
+.bg-card-gray{
+    background: #f6f6f6;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 1px;
+}
+
+.float-r{
+    float: right;
+}

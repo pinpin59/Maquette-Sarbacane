@@ -1,0 +1,306 @@
+main{
+    //Titre du main
+    .h2-main{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 100px;
+        padding-bottom: 40px;
+        text-align: center;
+        font-size: 30px;
+        color: black;
+        font-family: "Poppins",sans-serif;
+    }
+    //div qui englobe les deux cartes 
+    .main-card{
+        padding-top: 100px;
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+
+        // div qui englobe la carte gauche
+        .content-main-left{
+            width: 100%;
+            padding-left: 40px;
+            //carte gauche et ses enfants
+            .card-left{
+                width: 80%;
+                margin-left: 100px;
+                padding: 35px 0;
+                .h3-card-left{
+                    font-family: "Poppins",sans-serif;
+                    font-size: 16px;
+                }
+                
+                .p-card-left{
+                margin-top: 10px;
+                font-size: 14px;
+                width: 100%;
+                font-family: "Inter", sans-serif;
+                }
+                
+            }
+            
+        }
+
+        // div qui englobe la carte droite
+        .content-right-div{
+            width: 100%;
+            margin-left: 50px;
+            //carte droite et ses enfants
+            .card-right{
+                border-radius: 20px;
+                background-color: #f1f1f1;
+                width: 80%;
+                margin-right: 30px;
+                .start-color-card{
+                    border-top-left-radius: 20px;
+                    border-top-right-radius: 20px;
+                    width:100%;
+                    content: " ";
+                    min-height: 100%;
+                    background-color:#31b13f;
+                    height: 50px;
+                }
+                h4{
+                    font-size:40px;
+                    padding-top: 40px;
+                    padding-bottom: 20px;
+                    text-align: center;
+                    font-family: "Poppins", sans-serif;
+                }
+                p{
+                    font-size: 30px;
+                    text-align: center;
+                    font-family:"Iner",sans-serif ;
+                }
+                .text-email{
+                    padding-top: 15px;
+                    width: 60%;
+                    margin: 0 auto;
+                    p{
+                        font-size: 20px;
+                    }
+                }
+                .p-span{
+                    font-size: 45px;
+                    font-weight: 700;
+                    text-align: center;
+                }
+                .div-content-p{
+                    margin-top: 35px;
+                    width: 100%;
+                    text-align: left;
+                    .cont-p{
+                        width: 70%;
+                        margin: 0 auto;
+                        text-align: left;
+                        p{
+                            text-align: left;
+                            font-size: 16px;
+                            padding: 10px 0;
+                            img{
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                    
+                }
+
+                .card-btn{
+                    margin-top: 40px;
+                    text-align: center;
+                    button{
+                        background-color: #31b13f;
+                        border: 1px solid #31b13f;
+                        border-radius: 5px;
+                        color: white;
+                        padding: 15px 50px;
+                        font-size: 17px;
+                        font-family: "Inter",sans-serif;
+                        cursor: pointer;
+                    }
+                    
+                }
+
+                .div-discover-a{
+                    margin-top: 20px;
+                    padding-bottom: 50px;
+                    text-align: center;
+                    a{
+                        color: black;
+                        text-align: center;
+                        font-family: "Inter",sans-serif;
+                        font-size: 16px;
+                        font-weight:300;
+                        cursor: pointer;
+                    }
+                }
+                
+            } 
+            // Terme et conditions en dessous de la carte droite
+            .p-term{
+                color: rgba(128, 128, 128, 0.243);
+                font-family: "Inter",sans-serif;
+                padding-left: 20px;
+                margin-top: 20px;
+            }
+     
+        }
+        
+
+    }
+    
+}
+    
+
+@media screen and (max-width :1600px)  {
+    main{
+        .h2-main{
+            font-size: 25px;
+            width: 100%;
+        }
+        .main-card{
+            width: 100%;
+            margin: 0 auto;
+        .content-right-div{
+            .card-right{
+                width: 80%;
+
+                .card-btn{
+                    button{
+                        background-color: #31b13f;
+                        border: 1px solid #31b13f;
+                        border-radius: 5px;
+                        color: white;
+                        padding: 13px 50px;
+                        font-size: 15px;
+                        font-family: "Inter",sans-serif;
+                    }
+                }
+                .div-discover-a{
+                    margin-top: 20px;
+                    padding-bottom: 60px;
+                    a{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+         
+            
+            .content-main-left{
+                margin-top: 10px;
+                .card-left{
+                    padding-top: 25px;
+                    margin: 0 auto;
+                    width: 100%;
+                    .p-card-left{
+                        margin-top: 10px;
+                        font-size: 15px;
+                        width: 100%;
+                        font-family: "Inter", sans-serif;
+                            
+                    }
+                }
+            }
+        }
+    }
+    
+
+    
+    
+}
+
+@media screen and (max-width :1100px)  {
+    main{
+        .h2-main{
+            font-size: 25px;
+            width: 95%;
+        }
+        .main-card{
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column-reverse;
+            width: 90%;
+            margin: 0 auto;
+
+            .content-right-div{
+              margin-left: 0px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+              width: 85%;
+              .card-right{
+                width: 100%;
+                margin: 0 auto;
+                .div-content-p{
+                    .cont-p{
+                        p{
+                            font-size: 18px;
+                        }
+                    }
+                    
+                }
+              }
+            }
+            
+            .content-main-left{
+                .card-left{
+                    padding-top: 40px;
+                    margin: 0 auto;
+                    width: 95%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width :550px)  {
+    main{
+        .main-card{
+     
+            .content-right-div{
+                width: 100%;
+                .card-right{
+                
+                    .card-btn{
+                        margin-top: 30px;
+                        button{
+                            font-size: 14px;
+                            padding: 15px 30px;
+                        }
+                    }
+                    .div-discover-a{
+                        padding-bottom: 30px;
+                        a{
+
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            .p-term{
+            font-size: 12px;
+            padding-left: 0;
+            text-align: center;
+            }
+         
+            
+            .content-main-left{
+                padding-left: 10px;
+                .card-left{
+                    padding-top: 20px;
+                    margin: 0 auto;
+                    width: 100%;
+                }
+            }
+        }
+    }    
+}
+
+
+
+

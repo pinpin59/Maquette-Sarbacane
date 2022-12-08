@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Flèche" transform="translate(10 10)">
+    <g id="Groupe_1" data-name="Groupe 1" transform="translate(-10 -10)">
+      <path id="Tracé_1" data-name="Tracé 1" d="M22,12A10,10,0,1,0,12,22,10,10,0,0,0,22,12ZM2.934,12A9.066,9.066,0,1,1,12,21.066,9.066,9.066,0,0,1,2.934,12Z" transform="translate(-2 -2)"/>
+      <path id="Tracé_2" data-name="Tracé 2" d="M11.533,7.1l4.9,4.9-4.9,4.9" transform="translate(-2 -2)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.106"/>
+      <line id="Ligne_1" data-name="Ligne 1" x1="9.194" transform="translate(5.239 10)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1.106"/>
+    </g>
+  </g>
+</svg>

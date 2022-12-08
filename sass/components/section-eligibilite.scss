@@ -1,0 +1,273 @@
+.div-section{
+    display: flex;
+    margin-top: 100px;
+    border: 1px solid white;
+
+    .div-img-conditions{
+        float: left;
+        width: 100%;
+        display: inline-flex;
+        .img-conditions{
+            width: 100%;
+            max-width: 100%;
+            height:auto;
+        }
+    }
+
+    .div-conditions-right{
+        background-color: #f6f6f6;
+        width: 100%;
+        float:right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        .card-conditions{
+            margin-left: 50px;
+            width: 65%;
+            h6{
+                font-family: "Poppins",sans-serif;
+                font-size: 35px;
+                font-weight: 600;
+            }
+            p{
+                color: #262a2d;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.5rem;
+                margin-top: 20px;
+                font-family: "Inter",sans-serif;
+            }
+        }
+
+        .div-btn-conditions{
+            display: flex;
+            width: 65%;
+            max-width: 100%;
+            margin-top: 40px;
+            margin-left: 50px;
+            gap: 20%;
+            button{
+                color: #f6f6f6;
+                background-color: #31b13f;
+                border: 1px solid #31b13f;
+                padding: 10px;
+                
+                font-size: 12px;
+                width: 150px;
+                border-radius: 5px;
+                font-family: "Inter",sans-serif;
+            }
+            .div-content-p{
+                display: flex;
+                align-items: center;
+                text-decoration: underline;
+                
+                img{
+                    width: 20px;
+                }
+                a{
+                    font-family: "Inter",sans-serif;
+                    margin-left: 10px;
+                    font-size: 14px;
+                }
+            }
+            
+        }
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+    .div-section{
+    
+        .div-conditions-right{
+           
+            .card-conditions{
+                margin-left: 50px;
+                width: 80%;
+                h6{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 12px;
+                    line-height: 1.5rem;
+                    margin-top: 20px;
+                }
+            }
+    
+            .div-btn-conditions{
+                display: flex;
+                width: 80%;
+                margin-top: 30px;
+                gap: 20%;
+                button{
+                    padding: 10px;   
+                    font-size: 10px;
+                    width: 150px;
+                    
+                }
+                .div-content-p{
+                    img{
+                        width: 20px;
+                    }
+                    a{
+                        margin-left: 10px;
+                        font-size: 14px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .div-section{
+    
+        .div-conditions-right{
+           
+            .card-conditions{
+                margin-left: 50px;
+                width: 85%;
+                h6{
+                    font-size: 20px;
+                    margin-top: 15px;
+                }
+                p{
+                    font-size: 12px;
+                    line-height: 1.5rem;
+                    margin-top: 20px;
+                }
+            }
+    
+            .div-btn-conditions{
+                display: flex;
+                width: 85%;
+                margin-top: 30px;
+                margin-bottom: 10px;
+                gap: 20%;
+                button{
+                    padding: 5px;   
+                    font-size: 10px;
+                    width: 150px;
+                    
+                }
+                .div-content-p{
+                    img{
+                        width: 20px;
+                    }
+                    a{
+                        margin-left: 10px;
+                        font-size: 12px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .div-section{
+        display: flex;
+        flex-direction: column;
+
+    
+        .div-conditions-right{
+            padding-top: 30px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+            .card-conditions{
+                margin-left: 0px;
+                width: 85%;
+                h6{
+                    text-align: center;
+                    font-family: "Poppins",sans-serif;
+                    font-size: 35px;
+                    font-weight: 600;
+                }
+                p{
+                    text-align: center;
+                    font-size: 14px;
+                    margin-top: 20px;
+                    font-family: "Inter",sans-serif;
+                }
+            }
+    
+            .div-btn-conditions{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding-top: 20px;
+                margin: 0 auto;
+                button{
+                 
+                    padding: 12px;
+                    font-size: 12px;
+                    width: 200px;
+                    
+                }
+                .div-content-p{
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }
+                
+            }
+        }
+    }
+    
+}
+
+
+
+@media screen and (max-width:600px) {
+    .div-section{
+ 
+        .div-conditions-right{
+            
+            .card-conditions{
+                h6{
+                    text-align: center;
+                    font-family: "Poppins",sans-serif;
+                    font-size: 28px;
+                    font-weight: 600;
+                }
+                p{
+                    text-align: center;
+                    
+                    font-size: 14px;
+                    margin-top: 20px;
+                    font-family: "Inter",sans-serif;
+                }
+            }
+    
+            .div-btn-conditions{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding-top: 20px;
+                margin: 0 auto;
+                button{
+                 
+                    padding: 12px;
+                    font-size: 12px;
+                    width: 200px;
+                    
+                }
+                .div-content-p{
+                 
+                    margin-top: 20px;
+
+                }
+                
+            }
+        }
+    }
+    
+}
