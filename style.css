@@ -837,7 +837,6 @@ main .main-card .content-right-div .p-term {
 .div-section {
   display: flex;
   margin-top: 100px;
-  border: 1px solid white;
 }
 .div-section .div-img-conditions {
   float: left;
